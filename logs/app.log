@@ -1,0 +1,46 @@
+2024-06-10 12:57:39 INFO  VerizonCommunicationsServicesApplication:50 - Starting VerizonCommunicationsServicesApplication using Java 17.0.10 with PID 20404 (C:\LNP_WorkSpace\Verizon-Communications-Services\target\classes started by RAJASHEKHAR REDDY in C:\LNP_WorkSpace\Verizon-Communications-Services)
+2024-06-10 12:57:39 INFO  VerizonCommunicationsServicesApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-06-10 12:57:39 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-10 12:57:39 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-10 12:57:40 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-10 12:57:40 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+2024-06-10 12:57:41 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-06-10 12:57:41 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-10 12:57:41 INFO  StandardService:173 - Starting service [Tomcat]
+2024-06-10 12:57:41 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-10 12:57:41 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-06-10 12:57:41 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1337 ms
+2024-06-10 12:57:41 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-10 12:57:41 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-10 12:57:41 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-06-10 12:57:41 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-10 12:57:41 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-06-10 12:57:42 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ac75950
+2024-06-10 12:57:42 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-06-10 12:57:42 WARN  deprecation:153 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-10 12:57:42 WARN  deprecation:101 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-06-10 12:57:43 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-10 12:57:43 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-10 12:57:43 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-10 12:57:43 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-06-10 12:57:43 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-10 12:57:43 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-10 12:57:43 INFO  VerizonCommunicationsServicesApplication:56 - Started VerizonCommunicationsServicesApplication in 4.485 seconds (process running for 5.817)
+2024-06-10 13:00:50 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-10 13:00:50 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-06-10 13:00:50 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-06-10 13:00:50 WARN  DefaultHandlerExceptionResolver:247 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-06-10 13:03:22 INFO  CustomerControl:160 - Received request to get service provider with id: 10
+2024-06-10 13:03:23 INFO  CustomerControl:163 - Service provider found: com.verizon.entity.ServiceProviderDetails@208d4cf2
+2024-06-10 13:03:23 WARN  DefaultHandlerExceptionResolver:643 - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
+2024-06-10 13:03:23 WARN  DefaultHandlerExceptionResolver:247 - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2024-06-10 13:04:07 WARN  DefaultHandlerExceptionResolver:247 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2024-06-10 13:04:26 INFO  CustomerControl:160 - Received request to get service provider with id: 10
+2024-06-10 13:04:26 INFO  CustomerControl:163 - Service provider found: com.verizon.entity.ServiceProviderDetails@b439ffa
+2024-06-10 13:04:26 WARN  DefaultHandlerExceptionResolver:643 - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
+2024-06-10 13:04:26 WARN  DefaultHandlerExceptionResolver:247 - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2024-06-10 13:29:59 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-10 13:29:59 INFO  Http11NioProtocol:173 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-10 13:29:59 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-10 13:29:59 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-06-10 13:29:59 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
